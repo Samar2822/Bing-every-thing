@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>This is a web page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Pariatur ullam dicta quae at<a href="http://www.googel.com"> excepturi</a>
+            ex voluptate mollitia fugiat omnis vitae
+            odio, ratione deserunt repellat eligendi
+            totam! Ex maxime earum sit!
+        </p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Pariatur ullam dicta<span style="color: blue;"> quae at excepturi</span>
+            ex voluptate mollitia <mark> omnis vitae</mark>
+            odio, ratione deserunt repellat eligendi
+            totam! Ex maxime earum sit!
+        </p>
+        <br>
+        
+        <ul class="list-group">
+            <li class="list-group-item disabled" aria-disabled="true">A disabled item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A fourth item</li>
+            <li class="list-group-item">And a fifth one</li>
+        </ul>
+        
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">age</th>
+                    <th scope="col">email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Samar</td>
+                    <td>33</td>
+                    <td>moon@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Mohammed</td>
+                    <td>24</td>
+                    <td>mohammed@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Samaira</td>
+                    <td>34</td>
+                    <td>Samaira@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <form action="process" method="get"></form>
+        <form class="row g-3">
+            <div class="col-auto">
+                <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="First name">
+            </div>
+            <div class="col-auto">
+                <label for="inputplaceholder" class="visually-hidden">placeholder</label>
+                <input type="placeholder" class="form-control" id="inputplaceholder" placeholder="placeholder">
+            </div>
+            <div class="col-auto">
+                <button id="click" type="submit" class="btn btn-primary mb-3">submit</button>
+                
+            </div>
+        </form>
+        <br>
+        <br>
+        <div class="container">
+            <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                <div class="col">
+                    <div class="p-3 border bg-light">Male</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Female</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Others</div>
+                </div>
+                <br>
+                <button type="button" class="btn btn-secondary">Go</button>
+            </div>
+            <br>
+            <div class="container">
+                <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                    <div class="col">
+                        <div class="p-3 border bg-light">one</div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 border bg-light">Two</div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 border bg-light">Three</div>
+                    </div>
+                    <br>
+                    <button type="button" class="btn btn-info">chose</button>
+                </div>
+            </div>
+        </div>
+        <script src="./js.js"></script>
+    </body>
+</html>
